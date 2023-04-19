@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+struct student
+{char name[50];
+int roll;
+float marks;
+};
+int main()
+{ student s;
+cout << "ENTER THE FOLLOWING INFORMATION :"<< endl;
+cout<< "ENTER NAME: ";
+cin>>s.name;
+cout<<" ENTER THE ROLL NUMBER: ";
+cin>>s.roll;
+cout<< "ENTER THE MARKS: ";
+cin>>s.marks;
+cout<<"\n ***DISPLAYING INFORMATION***"<<endl;
+cout<<"NAME : "<<s.name <<endl;
+cout <<"ROLL : "<<s.roll<<endl;
+cout <<"MARKS : "<<s.marks<<endl;
+return 0;
+}
+
